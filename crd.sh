@@ -8,7 +8,7 @@ rm -rf prebuilts/clang/host/linux-x86
 /opt/crave/resync.sh
 
 # clone dt
-git clone https://github.com/gty799/android_device_xiaomi_lavender.git -b derp device/xiaomi/lavender
+git clone https://github.com/aLpHa-Git-69/android_device_xiaomi_lavender.git -b derp device/xiaomi/lavender
 
 #sign
 curl -sSf https://raw.githubusercontent.com/Trijal08/crDroid-build-signed-script-auto/main/create-signed-env.sh | bash
