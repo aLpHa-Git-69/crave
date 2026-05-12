@@ -25,7 +25,12 @@ echo "------------------------"
 
 # Dt
 
-git clone https://github.com/Never-Alive/device_xiaomi_haydn -b 16.0 device/xiaomi/haydn
+git clone https://github.com/aLpHa-Git-69/device_xiaomi_lavender -b crd device/xiaomi/lavender
+git clone https://github.com/Amritorock/vendor_xiaomi_lavender vendor/xiaomi/lavender
+git clone https://github.com/Amritorock/kernel_xiaomi_lavender -b android-16 kernel/xiaomi/lavender --depth=1
+git clone https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
+git clone https://github.com/Amritorock/hardware_dolby hardware/dolby
+
 
 echo "---------------------"
 echo "Tress clone completed"
@@ -49,7 +54,7 @@ echo "----------------------------"
 
 # lunch
 
-brunch haydn
+brunch lavender
 
 echo "----------"
 echo "Brunch done"
