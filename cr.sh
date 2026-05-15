@@ -1,6 +1,6 @@
 # Rom repo init
 
-repo init -u https://github.com/AxionAOSP/android.git -b lineage-23.2 --git-lfs
+repo init -u https://github.com/crdroidandroid/android.git -b 16.0 --git-lfs --no-clone-bundle
 
 echo "-----------------------------"
 echo "Repo init cloned successfully"
