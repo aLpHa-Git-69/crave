@@ -25,9 +25,10 @@ echo "------------------------"
 
 # Dt
 
-git clone https://github.com/aLpHa-Git-69/device_xiaomi_camellia.git device/xiaomi/camellia
+git clone https://github.com/aLpHa-Git-69/device_xiaomi_camellia.git -b exp device/xiaomi/camellia
 git clone https://github.com/aLpHa-Git-69/vendor-xiaomi-camellia.git vendor/xiaomi/camellia
 git clone https://github.com/aLpHa-Git-69/kernel_xiaomi_mt6833.git kernel/xiaomi/mt6833
+git clone https://github.com/xiaomi-mediatek-devs/android_vendor_mediatek_ims.git vendor/mediatek/ims
 
 echo "---------------------"
 echo "Tress clone completed"
