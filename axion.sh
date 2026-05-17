@@ -31,6 +31,7 @@ git clone https://github.com/dm700-devs/device_xiaomi_camellia-kernel.git device
 git clone https://github.com/xiaomi-mediatek-devs/android_vendor_mediatek_ims.git vendor/mediatek/ims
 git clone https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr.git device/mediatek/sepolicy_vndr
 git clone https://github.com/LineageOS/android_hardware_mediatek.git hardware/mediatek
+git clone https://github.com/LineageOS/android_hardware_xiaomi.git hardware/xiaomi
 
 echo "---------------------"
 echo "Tress clone completed"
