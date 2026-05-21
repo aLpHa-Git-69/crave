@@ -54,7 +54,7 @@ echo "----------------------------"
 
 # boss
 
-lunch infinity_camellia-user
+lunch infinity-camellia-user
 
 m bacon
 
