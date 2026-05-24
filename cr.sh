@@ -1,6 +1,6 @@
 # Rom repo init
 
-repo init -u https://github.com/crdroidandroid/android.git -b 16.0 --git-lfs --no-clone-bundle
+repo init -u https://github.com/crdroidandroid/android.git -b 16.0-qpr0 --git-lfs --no-clone-bundle
 
 echo "-----------------------------"
 echo "Repo init cloned successfully"
@@ -25,7 +25,7 @@ echo "------------------------"
 
 # Dt
 
-git clone https://github.com/aLpHa-Git-69/device_xiaomi_camellia.git device/xiaomi/camellia
+git clone https://github.com/aLpHa-Git-69/device_xiaomi_camellia.git -b cr device/xiaomi/camellia
 git clone https://github.com/aLpHa-Git-69/vendor_xiaomi_camellia.git vendor/xiaomi/camellia
 git clone https://github.com/dm700-devs/device_xiaomi_camellia-kernel.git device/xiaomi/camellia-kernel
 git clone https://github.com/techyminati/android_vendor_mediatek_ims.git vendor/mediatek/ims
