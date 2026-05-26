@@ -1,6 +1,6 @@
 # Rom repo init
 
-repo init -u https://github.com/crdroidandroid/android.git -b 16.0-qpr0 --git-lfs --no-clone-bundle
+repo init -u https://github.com/The-Clover-Project/manifest.git -b 16-qpr1 --git-lfs
 
 echo "-----------------------------"
 echo "Repo init cloned successfully"
@@ -25,7 +25,7 @@ echo "------------------------"
 
 # Dt
 
-git clone https://github.com/aLpHa-Git-69/device_xiaomi_camellia.git -b cr device/xiaomi/camellia
+git clone https://github.com/aLpHa-Git-69/device_xiaomi_camellia.git -b Clover device/xiaomi/camellia
 git clone https://github.com/aLpHa-Git-69/vendor_xiaomi_camellia.git vendor/xiaomi/camellia
 git clone https://github.com/dm700-devs/device_xiaomi_camellia-kernel.git device/xiaomi/camellia-kernel
 git clone https://github.com/techyminati/android_vendor_mediatek_ims.git vendor/mediatek/ims
@@ -47,15 +47,15 @@ echo "---------------------------"
 
 # signing script
 
-curl -sSf https://raw.githubusercontent.com/Trijal08/crDroid-build-signed-script-auto/main/create-signed-env.sh | bash
-
 echo "----------------------------"
 echo "Rom signed with private keys"
 echo "----------------------------"
 
 # lunch
 
-brunch camellia
+lunch clover_camellia-bp3a-userdebug
+
+mka clover
 
 echo "----------"
 echo "Brunch done"
