@@ -1,6 +1,6 @@
 # Rom repo init
 
-repo init -u https://github.com/Lunaris-AOSP/android -b 16.2 --git-lfs
+repo init -u https://github.com/Lunaris-AOSP/android -b 16 --git-lfs
 
 echo "-----------------------------"
 echo "Repo init cloned successfully"
@@ -47,7 +47,7 @@ echo "---------------------------"
 
 # boss
 
-lunch lineage_camellia-bp4a-user
+lunch lineage_camellia-bp2a-user
 
 m bacon
 
